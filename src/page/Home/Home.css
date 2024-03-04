@@ -1,0 +1,8 @@
+.notice-board{
+    background: #9B1FE9;
+    color: #fff;
+    padding: 15px 0;
+}
+.notice-board p{
+    text-align: center;
+}

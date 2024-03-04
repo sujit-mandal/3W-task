@@ -1,0 +1,109 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.nav-bar h1{
+    color: #9B1FE9;
+}
+.menubar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.select-menu{
+    width: 220px;
+    margin: 14px auto;
+    position: relative;
+}
+.select-menu .select-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.select-menu .select-btn-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.select-menu .options{
+    position: absolute;
+    right: 0;
+    width: 250px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+
+.options .option{
+    display: flex;
+    height: 45px;
+    cursor: pointer;
+    padding: 0 5px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+}
+ul li img{
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+.options .option:hover{
+    background: #F2F2F2;
+}
+.options .option-text{
+    font-size: 16px;
+    color: #333;
+}
+.wallet-btn{
+    display: flex;
+    align-items: center;
+    color: #9B1FE9;
+    gap: 5px;
+    padding: 6px;
+    font-size: 18px;
+    border: 2px solid #9B1FE9;
+    border-radius: 5px;
+    background: #fff;
+}
+.user{
+    position: relative;
+}
+.user-icon{
+    background: #EEEEEE;
+    padding: 8px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.user-menu{
+    position: absolute;
+    right: 0;
+    background: #fff;
+    padding: 0 10px;
+    width: 100px;
+    list-style: none;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.user-menu li{
+    padding: 5px 5px;
+}
+
+.user-menu .link{
+    cursor: pointer;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #333;
+}
